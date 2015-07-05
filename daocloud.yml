@@ -6,3 +6,5 @@ script:
         - ls /opt/tomcat/webapps
         - mkdir /opt/tomcat/webapps/Myweb
         - echo "Mkdir Myweb Complete" 
+        - mv ./index.html /opt/tomcat/webapps/Myweb
+        - echo "Deploy Success"
