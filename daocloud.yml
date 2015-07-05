@@ -1,3 +1,8 @@
 image: consol/tomcat-7.0
 script:
         - echo "Ci Complete"
+        - echo "Begin deploy my project"
+        - echo "Ls tomcat webapps"
+        - ls /opt/tomcat/webapps
+        - mkdir /opt/tomcat/webapps/Myweb
+        - echo "Mkdir Myweb Complete" 
