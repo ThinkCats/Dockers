@@ -4,9 +4,4 @@ script:
         - echo "Begin deploy my project"
         - echo "Ls tomcat webapps"
         - ls /opt/tomcat/webapps
-        - echo "Begin remove other directory"
-        - cd /opt/tomcat/webapps && rm -rf *
-        - mkdir /opt/tomcat/webapps/Myweb
-        - echo "Mkdir Myweb Complete" 
-        - mv ./index.html /opt/tomcat/webapps/Myweb
         - echo "Deploy Success"
