@@ -1,7 +1,6 @@
 image: daocloud/ci-golang:1.4
 script:
         - echo "Ci Begin"
-        - echo "Ready Run"
         - ls
         - echo "Now Pwd"
         - pwd
