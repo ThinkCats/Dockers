@@ -3,6 +3,8 @@ script:
         - echo "Ci Begin"
         - echo "Ready Run"
         - ls
-        - ./MailSend
+        - echo "ls app"
+        - cd /usr/app
+        - ls
 
            
