@@ -1,9 +1,9 @@
 FROM daocloud/ci-golang:1.4
 
-RUN mkdir /usr/app
-WORKDIR /usr/app
-COPY . /usr/app
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+COPY . /usr/src/app
 
 EXPOSE 3000
 
-CMD ["/daocloud/builder/repo/MailSend" ]
+CMD ["./MailSend" ]
