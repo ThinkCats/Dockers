@@ -3,5 +3,6 @@ script:
         - echo "Ci Begin"
         - echo "Ready Run"
         - ls
-
+        - echo "Now Pwd"
+        - pwd
            
