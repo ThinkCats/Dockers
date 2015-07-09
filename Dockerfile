@@ -1,4 +1,3 @@
-FROM ubuntu:14.04
+FROM daocloud/ci-golang:1.4
 
-RUN apt-get install git
 

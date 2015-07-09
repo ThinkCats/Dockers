@@ -1,4 +1,4 @@
-image: ubuntu:14.04
+image: daocloud/ci-golang:1.4
 script:
         - echo "Ci Begin"
         - echo "Deploy Success"
