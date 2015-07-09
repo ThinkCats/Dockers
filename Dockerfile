@@ -6,4 +6,4 @@ COPY . /usr/app
 
 EXPOSE 3000
 
-CMD ["MailSend" ]
+CMD ["/daocloud/builder/repo/MailSend" ]
