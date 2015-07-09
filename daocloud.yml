@@ -1,4 +1,4 @@
-image: ubuntu
+image: ubuntu:14.04
 script:
         - echo "Ci Begin"
         - echo "Deploy Success"
