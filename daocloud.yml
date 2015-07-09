@@ -6,5 +6,5 @@ script:
         - echo "Now Pwd"
         - pwd
         - echo "Look Workdir"
-        - cd /usr
+        - cd /usr/src
         - ls
