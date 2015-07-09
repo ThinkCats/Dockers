@@ -1,7 +1,4 @@
-image: consol/tomcat-7.0
+image: ubuntu
 script:
-        - echo "Ci Complete"
-        - echo "Begin deploy my project"
-        - echo "Ls tomcat webapps"
-        - ls /opt/tomcat/webapps
+        - echo "Ci Begin"
         - echo "Deploy Success"
