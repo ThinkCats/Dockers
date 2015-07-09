@@ -4,4 +4,4 @@ RUN mkdir /usr/app
 WORKDIR /usr/app
 COPY . /usr/app
 
-CMD ["/usr/app/MailSend" ]
+CMD ["MailSend" ]
